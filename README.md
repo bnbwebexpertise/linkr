@@ -1,9 +1,6 @@
-<img alt="Linkr logo" src="https://cdn.rawgit.com/LINKIWI/linkr/a4853551/frontend/static/img/favicon.png" width="96px" height="96px" align="right" />
+<img alt="Linkr logo" src="https://cdn.rawgit.com/bnbwebexpertise/linkr/a4853551/frontend/static/img/favicon.png" width="96px" height="96px" align="right" />
 
 # Linkr
-
-[![Build Status](https://travis-ci.org/LINKIWI/linkr.svg?branch=master)](https://travis-ci.org/LINKIWI/linkr)
-[![Coverage Status](https://coveralls.io/repos/github/LINKIWI/linkr/badge.svg?branch=master)](https://coveralls.io/github/LINKIWI/linkr?branch=master)
 
 Linkr is a self-hosted URL shortener built on modern web technologies that is fast, minimalistic, and developer-friendly.
 
@@ -39,7 +36,7 @@ Linkr is a self-hosted URL shortener built on modern web technologies that is fa
 Get the code
 
 ```bash
-$ git clone https://github.com/LINKIWI/linkr.git
+$ git clone https://github.com/bnbwebexpertise/linkr.git
 $ cd linkr/
 ```
 
@@ -67,10 +64,10 @@ Configuration options and secrets
   * Documentation for each available config option is in the Configuration section.
 
 ```bash
-$ cp config/options/client.json.template config/options/client.json
-$ cp config/options/server.json.template config/options/server.json
-$ cp config/secrets/client.json.template config/secrets/client.json
-$ cp config/secrets/server.json.template config/secrets/server.json
+$ cp config/options/client.json.template config/options/client.jsoncp config/options/client.json.template config/options/client.json;
+$ cp config/options/server.json.template config/options/server.jsoncp config/options/server.json.template config/options/server.json;
+$ cp config/secrets/client.json.template config/secrets/client.jsoncp config/secrets/client.json.template config/secrets/client.json;
+$ cp config/secrets/server.json.template config/secrets/server.jsoncp config/secrets/server.json.template config/secrets/server.json;
 # You can leave the options as default, or modify to your liking. Make sure the server-side secrets
 # config contains your database connection credentials.
 ```
