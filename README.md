@@ -1,5 +1,3 @@
-<img alt="Linkr logo" src="https://cdn.rawgit.com/bnbwebexpertise/linkr/a4853551/frontend/static/img/favicon.png" width="96px" height="96px" align="right" />
-
 # Linkr
 
 Linkr is a self-hosted URL shortener built on modern web technologies that is fast, minimalistic, and developer-friendly.
