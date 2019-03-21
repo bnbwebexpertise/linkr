@@ -30,8 +30,7 @@
   "author": "Kevin Lin <developer@kevinlin.info>",
   "license": "MIT",
   "pre-commit": [
-    "lint",
-    "test"
+    "lint"
   ],
   "dependencies": {
     "async": "^2.1.5",
