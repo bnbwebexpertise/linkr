@@ -20,7 +20,7 @@ def api_add_user(data):
     try:
         is_admin = data.get('is_admin')
 
-        if not config.options.server('allow_open_registration'):
+        if not config.options.server('allow_open_registration') and (not current_user.is_authenticated or not current_user.is_admin):
             return util.response.error(
                 status_code=403,
                 message='The server administrator has disabled open user self-registration.',
